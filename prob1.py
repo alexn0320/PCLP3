@@ -3,6 +3,7 @@ class Employee:
     empCount = 0
 
     def __init__(self, name, salary):
+        super().__init__(name, salary)
         self.name = name
         self.salary = salary
         self.tasks = {}
