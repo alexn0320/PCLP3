@@ -6,8 +6,6 @@ class Manager(Employee):
 
     def __init__(self, name, salary, department):
         super().__init__(name, salary)
-        self.name = name
-        self.salary = salary
         #prefixarea echipei 
         self.department = "A07_" + department
     
